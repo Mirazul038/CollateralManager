@@ -3,6 +3,7 @@ using System;
 
 namespace CollateralLoanMVC.Controllers
 {
+	[Route("[controller]")]
 	public class HomeController : Controller
 	{
 		/// <summary>
@@ -13,7 +14,8 @@ namespace CollateralLoanMVC.Controllers
 		public ActionResult Index()
 		{
 			//TODO: Index action
-			throw new NotImplementedException();//remove this
+			//throw new NotImplementedException();//remove this
+			return View();
 		}
 	}
 }

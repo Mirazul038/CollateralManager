@@ -4,9 +4,11 @@ using CollateralLoanMVC.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CollateralLoanMVC.Controllers
 {
+	[Route("[controller]")]
 	public class LoanController : Controller
 	{
 		/// <summary>
@@ -36,16 +38,26 @@ namespace CollateralLoanMVC.Controllers
 			throw new NotImplementedException();//remove this
 		}
 
+		[HttpPost]
+		public ActionResult New(Loan loan)
+        {
+			bool val = _loanManagement.Save(loan);
+		
+			return View();
+        }
+
 		/// <summary>
 		/// Used to get the view for viewing an individual loan in more detailed manner.
 		/// </summary>
 		/// <param name="loanId">Id of the loan to be viewed</param>
 		/// <returns>view for viewing an individual loan</returns>
-		[HttpGet("{id}")]
-		public ActionResult View(int loanId)
+		[HttpGet("[action]/{id}")]
+		public async Task<ActionResult> View(int id)
 		{
+			Loan loanDetails= await _loanManagement.Get(id);
+			return View(loanDetails);
 			//TODO: View action
-			throw new NotImplementedException();//remove this
+			//throw new NotImplementedException();//remove this
 		}
 
 		/// <summary>

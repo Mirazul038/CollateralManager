@@ -25,8 +25,8 @@ namespace CollateralLoanMVC.Services
 		/// </summary>
 		/// <param name="loanId">id of the loan to be fetch</param>
 		/// <returns>loan associated with the given id or null if an error occurs or no loan found for the given id</returns>
-		Loan Get(int loanId);
-
+		Task<Loan> Get(int loanId);
+		//bool Get(int loanId);
 		/// <summary>
 		/// Saves the given <see cref="Loan"/> instance.
 		/// </summary>
