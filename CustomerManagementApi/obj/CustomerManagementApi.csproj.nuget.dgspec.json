@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj": {}
+    "C:\\Users\\Mirazul\\Desktop\\GitRepo\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj": {
+    "C:\\Users\\Mirazul\\Desktop\\GitRepo\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj",
+        "projectUniqueName": "C:\\Users\\Mirazul\\Desktop\\GitRepo\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj",
         "projectName": "CustomerManagementApi",
-        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CustomerManagementApi\\obj\\",
+        "projectPath": "C:\\Users\\Mirazul\\Desktop\\GitRepo\\CollateralLoans\\CustomerManagementApi\\CustomerManagementApi.csproj",
+        "packagesPath": "C:\\Users\\Mirazul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mirazul\\Desktop\\GitRepo\\CollateralLoans\\CustomerManagementApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mirazul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
