@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LoanManagementApi.DAL
+namespace CollateralLoanMVC.DAL
 {
-	public class LoanFilter
+	public class Filter
 	{
 		public int CustomerId { get; set; }
 		public string Type { get; set; }

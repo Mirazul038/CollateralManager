@@ -8,7 +8,7 @@ namespace LoanManagementApi.DAL.DAO
 {
 	public interface ILoanDao
 	{
-		List<Loan> GetAll(Page page, LoanFilter filter, LoanDb db);
+		List<Loan> GetAll(Page page, Filter filter, LoanDb db);
 		Loan GetById(int id, LoanDb db);
 		int Save(Loan loan, LoanDb db);
 		int UpdateFull(int id, Loan loan, LoanDb db);

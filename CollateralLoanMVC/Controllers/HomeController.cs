@@ -1,33 +1,19 @@
-﻿using CollateralLoanMVC.Models;
-using CollateralLoanMVC.Services;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CollateralLoanMVC.Controllers
 {
 	public class HomeController : Controller
 	{
 		/// <summary>
-		/// Used for communicating with the Loan Management Api.
+		/// Used to get the template view for index page. This page does not provide the list of loans.
 		/// </summary>
-		private readonly ILoanManagement _loanManagement;
-
-		/// <summary>
-		/// Used for communicating with the Risk Assessment Api.
-		/// </summary>
-		private readonly IRiskAssessment _riskAssessment;
-
-		public HomeController(ILoanManagement loanManagement, IRiskAssessment riskAssessment)
+		/// <returns>template view for index page</returns>
+		[HttpGet("[action]")]
+		public ActionResult Index()
 		{
-			_loanManagement = loanManagement;
-			_riskAssessment = riskAssessment;
+			//TODO: Index action
+			throw new NotImplementedException();//remove this
 		}
-
-		//add actions
 	}
 }

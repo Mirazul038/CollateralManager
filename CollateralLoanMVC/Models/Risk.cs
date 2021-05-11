@@ -7,5 +7,8 @@ namespace CollateralLoanMVC.Models
 {
 	public class Risk
 	{
+		public int LoanValue { get; }
+		public int CollateralValue { get; }
+		public double RiskPercentage { get => ((double)LoanValue / CollateralValue) * 100; }
 	}
 }

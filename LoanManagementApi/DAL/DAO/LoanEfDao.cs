@@ -18,7 +18,7 @@ namespace LoanManagementApi.DAL.DAO
 			_logSensitiveData = logSensitiveData;
 		}
 
-		public List<Loan> GetAll(Page page, LoanFilter filter, LoanDb db)
+		public List<Loan> GetAll(Page page, Filter filter, LoanDb db)
 		{
 			if (IsDbContextNull(db))
 				return null;

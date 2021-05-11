@@ -28,7 +28,7 @@ namespace LoanManagementApi.Controllers
 		}
 
 		[HttpGet("")]
-		public IActionResult GetAll([FromQuery] Page page, [FromQuery] LoanFilter filter, [FromServices] LoanDb db)
+		public IActionResult GetAll([FromQuery] Page page, [FromQuery] Filter filter, [FromServices] LoanDb db)
 		{
 			if (page == null || page.PageNo < 1 || page.PageSize < 1)
 				return StatusCode((int)HttpStatusCode.BadRequest, new { error = "invalid page details" });

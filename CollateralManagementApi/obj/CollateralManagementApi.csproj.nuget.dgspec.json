@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\CollateralManagementApi.csproj": {}
+    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\CollateralManagementApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\CollateralManagementApi.csproj": {
+    "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\CollateralManagementApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\CollateralManagementApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\CollateralManagementApi.csproj",
         "projectName": "CollateralManagementApi",
-        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\CollateralManagementApi.csproj",
+        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\CollateralManagementApi.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bXxyMIh0rgkaj7bQzxPXfAOLJvvIHz0Wi8S0qi6QWDu+tlAhQyA+wJ7xuYPOmV1+t1rS/PtF4yAZ6NfsCOn1LQ==",
+  "dgSpecHash": "TbGZKlGGGVoLFHvBH/HJAfjS7lvYbwcdgmRRWDCrbhhduRvGdvW2/Tmo9C0IOogCeXwACV1QfXpG5V9HQ/hKHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralmanagementApi\\CollateralManagementApi.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Visual Studio Workplace\\CollateralLoans\\CollateralManagementApi\\CollateralManagementApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
